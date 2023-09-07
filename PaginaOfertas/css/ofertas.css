@@ -146,12 +146,31 @@ table.tabla01{
     width: 100%;
     height: 100%;
     border: black;
-
+    overflow: auto;
+    border-radius: 15px;
 }
 table.tabla01 tbody{
     width: 100%;
     height: 100%;
-    background-color: beige;
-    scroll-margin-bottom: 5px;
-
+    background-color: lightgray;
+    border: #20dcc5;
+}
+.filtros{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 90%;
+  height: 100%;
+  gap: 3px;
+}
+.filtros .primero{
+  border-color: #20dcc5;
+  height:10%;
+  background-color: lightgray;
+  border: 1px solid #20dcc5;
+}
+.filtros .segundo{
+  height: 85%;
+  background-color: lightgray;
+  border: 1px solid #20dcc5;
 }
