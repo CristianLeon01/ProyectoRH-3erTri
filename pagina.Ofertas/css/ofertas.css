@@ -154,6 +154,7 @@ table.tabla01 tbody{
     height: 100%;
     background-color: lightgray;
     border: #20dcc5;
+    gap: 3px;
 }
 .filtros{
   display: flex;
