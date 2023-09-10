@@ -131,3 +131,53 @@ span {
   margin-top: 10%;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
 }
+.information{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    width: 100vw;
+    height: 100vh;
+    gap: 20px;
+    padding: 10px;
+}
+.information content{
+    padding: 25px;
+}
+.information content article{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px solid #20dcc5;
+    background-color: lightgray;
+    align-items: center;
+    
+}
+
+footer{
+    padding: 50px;
+    margin-top: 40px;
+    gap: 0;
+}
+footer button{
+    margin-left: 5px;
+    border: 2px solid;
+    padding:2px;
+    border-radius: 0px 15px 0px 0px;
+}
+footer button:hover{
+    background-color: gray;
+}
+footer button:active{
+    transform: scale(0.1);
+}
+footer article p{
+    width: 100%;
+    background-color: lightgray;
+    border: 2px solid;
+    margin-top: 0;
+    height: auto;
+    min-height: 150px;
+    height: 35vh;
+}
