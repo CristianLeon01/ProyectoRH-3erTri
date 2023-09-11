@@ -148,6 +148,7 @@ section .estadoProceso{
     height: 70%;
     border: 2px solid #20dcc5;
     margin: 10px;
+    margin-left: 25px;
     background-color: lightgray;
 }
 .element01{
