@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Phudu&family=Sedgwick+Ave+Display&family=Ubuntu+Condensed&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.Home {
+  width: 100vw;
+  height: 100vh;
+}
+
+.navegacion {
+  display: flex;
+  background-color: #20dcc5;
+  font-size: 15px;
+  justify-content: center;
+  width: 100vw;
+  height: 75px;
+}
+
+.menu-horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-top: -7px;
+  align-items: center;
+  margin-top: 70px;
+  margin: 40px;
+  gap: 25px;
+  height: 2px;
+}
+
+.menu-horizontal > li > a {
+  display: block;
+  padding: 15px 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.menu-horizontal > li:hover {
+  background-color: lightseagreen;
+  border-radius: 10px;
+}
+
+.menu-vertical {
+  position: absolute;
+  display: none;
+  list-style: none;
+  background-color: #20dcc5;
+}
+
+.menu-horizontal li:hover .menu-vertical {
+  display: block;
+}
+
+.marca {
+  width: 80px;
+  height: 70px;
+  border-radius: 10px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 5px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+span {
+  color: lightsteelblue;
+}
+
+.Cabeza {
+  height: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.Pantalla-Inicio {
+  background-color: #fff;
+}
+
+.Iconos {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin: 15px;
+  padding: 0;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.Iconos li img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.box {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  padding-top: 15px;
+}
+
+.search {
+  width: 90vw;
+  height: 80px;
+  max-width: 700px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 10%;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.information{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    width: 100vw;
+    height: 100vh;
+    gap: 20px;
+    padding: 10px;
+}
+.information content{
+    padding: 25px;
+}
+.information content article{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px solid #20dcc5;
+    background-color: lightgray;
+    align-items: center;
+    
+}
+
+footer{
+    padding: 50px;
+    margin-top: 40px;
+    gap: 0;
+}
+footer button{
+    margin-left: 5px;
+    border: 2px solid;
+    padding:2px;
+    border-radius: 0px 15px 0px 0px;
+}
+footer button:hover{
+    background-color: gray;
+}
+footer button:active{
+    transform: scale(0.1);
+}
+footer article p{
+    width: 100%;
+    background-color: lightgray;
+    border: 2px solid;
+    margin-top: 0;
+    height: auto;
+    min-height: 150px;
+    height: 35vh;
+}
