@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu&family=Sedgwick+Ave+Display&family=Ubuntu+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+
+.Home {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.navegacion{
+    display: flex;
+    background-color: #20DCC5;
+    font-size: 15px;
+    justify-content: center;
+    width: 100vw;
+    height: 75px;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    margin-top: -7px;
+    align-items: center;
+    margin-top: 70px;
+    margin: 40px;
+    gap: 25px;
+    height: 2px;
+}
+
+.menu-horizontal >li >a {
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-horizontal >li:hover {
+    background-color: lightseagreen;
+    border-radius: 10px;
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    background-color:#20DCC5;
+}
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+
+.menu-vertical li:hover{
+    background-color: lightseagreen;
+    border-radius: 10px;
+}
+
+.menu-vertical li a{
+    display: block;
+    color: black;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
+.marca{
+    width: 80px;
+    height: 70px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 5px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+
+span {
+    color:lightsteelblue;
+}
+
+
+.Cabeza {
+    height: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Pantalla-Inicio {
+    background-color: #fff;
+}
+
+
+.Iconos {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 15px;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+
+.Iconos li img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+.box {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.search{
+    width: 90vw;
+    height: 80px;
+    max-width: 700px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 10%;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.search input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 18px;
+    color: black;
+}
+
+::placeholder {
+    color: black;
+}
+
+.search button img {
+    width: 25px;
+}
+
+.search button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+
+.barra {
+    width: 10%;
+    height: 9%;
+    position: fixed;
+    transition: -4s all;
+    z-index: 1;
+}
