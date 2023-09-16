@@ -3,11 +3,11 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 body {
     background-color: rgb(255, 255, 255);
-    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 
@@ -20,7 +20,7 @@ body {
 .navegacion{
     display: flex;
     background-color: #20DCC5;
-    font-size: 16px;
+    font-size: 15px;
     justify-content: center;
     width: 100vw;
     height: 75px;
@@ -87,7 +87,7 @@ body {
 h1 {
     text-align: center;
     font-size: 50px;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 
@@ -96,99 +96,90 @@ span {
 }
 
 
-.Cabeza {
-    height: 0px;
-    display: flex;
-    justify-content: center;
-}
-
-
 .Pantalla-Inicio {
     background-color: #fff;
 }
 
-
-.Login {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+.boton1,
+.boton2,
+.boton3,
+.boton4,
+.boton5 {
+    background-color: rgb(210, 214, 213);
+    color: black;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    width: 50vw;
+    height: 50px;
     margin: 20px;
-    padding: 0;
-    position: absolute;
-    top: 10px;
-    right: 20px;
+    margin-top: 30px;
+    border: 2px solid #20DCC5;
 }
 
-.Login a{
+.links a {
     text-decoration: none;
     color: black;
-    background-color:rgb(210,214,213);
     padding: 10px;
+    display: block;
     border-radius: 10px;
-    font-size: 14px;
-    border: 2px solid gray;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-
-.box {
-    width: 100%;
-    min-height: 100vh;
-    background-color: rgb(255, 255, 255);;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    flex-direction: column;
-    padding-top: 15px;
+.links {
+    background-color: rgb(210, 214, 213);
+    display: none;
+    width: 50vw;
+    border: 2px solid #20DCC5;
 }
 
-.search{
-    width: 90vw;
-    height: 80px;
-    max-width: 700px;
-    background: #fff;
-    display: flex;
-    align-items: center;
+.links a:hover {
+    background-color: lightseagreen;
+}
+
+.contenedor:hover .links {
+    display: block;
     border-radius: 10px;
-    padding: 10px 20px;
-    margin-top: 10%;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
 }
 
-.search input {
-    background: transparent;
-    flex: 1;
-    border: 0;
-    outline: none;
-    padding: 24px 20px;
-    font-size: 18px;
+.contenedor {
+    position: relative;
+    display: inline-block; 
+}
+
+.tooltip {
+    position: absolute;
+    background-color: rgb(210,214,213);
     color: black;
-}
-
-::placeholder {
-    color: black;
-}
-
-.search button img {
-    width: 25px;
-}
-
-.search button{
-    border: 0;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    background-color: lightblue;
-    cursor: pointer;
-}
-
-
-.barra {
-    width: 10%;
-    height: 9%;
-    position: fixed;
-    transition: -4s all;
+    padding: 5px;
+    border-radius: 5px;
+    display: none;
     z-index: 1;
+    top: 0;
+    left: 100%; 
+    transform: translateX(70px);
+    text-align: center;
+    width: 35vw;
+    height: 50px;
+    margin-top: 20px;
+    border: 2px solid #20DCC5;
+}
+
+.boton1:hover + .tooltip {
+    display: block;
+}
+
+.boton2:hover + .tooltip {
+    display: block;
+}
+.boton3:hover + .tooltip {
+    display: block;
+}
+
+.boton4:hover + .tooltip {
+    display: block;
+}
+
+.boton5:hover + .tooltip {
+    display: block;
 }

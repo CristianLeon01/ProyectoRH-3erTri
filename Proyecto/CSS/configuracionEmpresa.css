@@ -20,7 +20,7 @@ body {
 .navegacion{
     display: flex;
     background-color: #20DCC5;
-    font-size: 15px;
+    font-size: 16px;
     justify-content: center;
     width: 100vw;
     height: 75px;
@@ -99,26 +99,6 @@ span {
 .Pantalla-Inicio {
     background-color: #fff;
 }
-
-
-.Iconos {
-    list-style: none;
-    display: flex;
-    gap: 10px;
-    margin: 15px;
-    padding: 0;
-    position: absolute;
-    top: 10px;
-    right: 20px;
-}
-
-
-.Iconos li img {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-}
-
 
 .boton1,
 .boton2,

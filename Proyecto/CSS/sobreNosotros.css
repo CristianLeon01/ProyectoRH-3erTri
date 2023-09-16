@@ -3,11 +3,11 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 body {
     background-color: rgb(255, 255, 255);
-    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 
@@ -83,23 +83,8 @@ body {
     margin: 5px;
 }
 
-
-h1 {
-    text-align: center;
-    font-size: 50px;
-    margin-top: 70px;
-}
-
-
 span {
     color:lightsteelblue;
-}
-
-
-.Cabeza {
-    height: 0px;
-    display: flex;
-    justify-content: center;
 }
 
 
@@ -107,88 +92,71 @@ span {
     background-color: #fff;
 }
 
-
-.Login {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    margin: 20px;
-    padding: 0;
-    position: absolute;
-    top: 10px;
-    right: 20px;
+.QuienesSomos h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-right: 600px;
+    margin-top: 30px;
 }
 
-.Login a{
-    text-decoration: none;
-    color: black;
-    background-color:rgb(210,214,213);
+.Objetivo h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 700px;
+    margin-top: -230px;
+    display: block;
+}
+
+.ObjetivoEspecifico h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.contenedor p {
     padding: 10px;
+    top: 500px;
+    margin: 30px;
+    text-align: justify;
+    margin-right: 500px;
+    background-color: rgb(210,214,213);
+    width: 400px;
+    height: 120px;
+    margin-left: 120px;
+    border: 2px solid #20DCC5;
     border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
     font-size: 14px;
-    border: 2px solid gray;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-
-.box {
-    width: 100%;
-    min-height: 100vh;
-    background-color: rgb(255, 255, 255);;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    flex-direction: column;
-    padding-top: 15px;
-}
-
-.search{
-    width: 90vw;
-    height: 80px;
-    max-width: 700px;
-    background: #fff;
-    display: flex;
-    align-items: center;
+.contenedor1 p {
+    padding: 10px;
+    top: 500px;
+    margin: 30px;
+    text-align: justify;
+    background-color: rgb(210,214,213);
+    width: 400px;
+    height: 120px;
+    margin-left: 770px;
+    font-size: 20px;
+    border: 2px solid #20DCC5;
     border-radius: 10px;
-    padding: 10px 20px;
-    margin-top: 10%;
+    border-radius: 10px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-.search input {
-    background: transparent;
-    flex: 1;
-    border: 0;
-    outline: none;
-    padding: 24px 20px;
+.contenedor2 p {
+    padding: 10px;
+    top: 500px;
+    margin: 30px;
+    text-align: justify;
+    background-color: rgb(210,214,213);
+    width: 400px;
+    height: 120px;
+    margin-left: 430px;
     font-size: 18px;
-    color: black;
-}
-
-::placeholder {
-    color: black;
-}
-
-.search button img {
-    width: 25px;
-}
-
-.search button{
-    border: 0;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    background-color: lightblue;
-    cursor: pointer;
-}
-
-
-.barra {
-    width: 10%;
-    height: 9%;
-    position: fixed;
-    transition: -4s all;
-    z-index: 1;
+    border: 2px solid #20DCC5;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
 }
