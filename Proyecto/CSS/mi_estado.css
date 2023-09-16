@@ -18,7 +18,7 @@ body {
 .navegacion {
   display: flex;
   background-color: #20dcc5;
-  font-size: 15px;
+  font-size: 16px;
   justify-content: center;
   width: 100vw;
   height: 75px;
@@ -27,7 +27,7 @@ body {
 .menu-horizontal {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content:space-around;
   margin-top: -7px;
   align-items: center;
   margin-top: 70px;
@@ -36,14 +36,14 @@ body {
   height: 2px;
 }
 
-.menu-horizontal > li > a {
+.menu-horizontal >li >a {
   display: block;
   padding: 15px 20px;
   color: black;
   text-decoration: none;
 }
 
-.menu-horizontal > li:hover {
+.menu-horizontal >li:hover {
   background-color: lightseagreen;
   border-radius: 10px;
 }
@@ -52,11 +52,23 @@ body {
   position: absolute;
   display: none;
   list-style: none;
-  background-color: #20dcc5;
+  background-color:#20DCC5;
 }
 
-.menu-horizontal li:hover .menu-vertical {
+.menu-horizontal li:hover .menu-vertical{
   display: block;
+}
+
+.menu-vertical li:hover{
+  background-color: lightseagreen;
+  border-radius: 10px;
+}
+
+.menu-vertical li a{
+  display: block;
+  color: black;
+  padding: 15px 15px 15px 20px;
+  text-decoration: none;
 }
 
 .marca {
@@ -69,10 +81,10 @@ body {
   margin: 5px;
 }
 
-h1 {
-  text-align: center;
-  font-size: 50px;
-  margin-top: 30px;
+p{
+  padding: 5px 5px;
+  text-align: justify;
+  margin: 5px;
 }
 
 span {
@@ -89,23 +101,6 @@ span {
   background-color: #fff;
 }
 
-.Iconos {
-  list-style: none;
-  display: flex;
-  gap: 10px;
-  margin: 15px;
-  padding: 0;
-  position: absolute;
-  top: 10px;
-  right: 20px;
-}
-
-.Iconos li img {
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-}
-
 .box {
   width: 100%;
   min-height: 100vh;
@@ -116,33 +111,23 @@ span {
   align-items: center;
   justify-content: start;
   flex-direction: column;
-  padding-top: 15px;
+  padding-top: 20px;
+  margin: 20px;
 }
 
-.search {
-  width: 90vw;
-  height: 80px;
-  max-width: 700px;
-  background: #fff;
-  display: flex;
-  align-items: center;
-  border-radius: 10px;
-  padding: 10px 20px;
-  margin-top: 10%;
-  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
-}
 .information{
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto;
     width: 100vw;
     height: 100vh;
-    gap: 20px;
-    padding: 10px;
+    padding: 20px;
 }
+
 .information content{
     padding: 25px;
 }
+
 .information content article{
     width: 100%;
     height: 60%;
@@ -152,26 +137,30 @@ span {
     border: 2px solid #20dcc5;
     background-color: lightgray;
     align-items: center;
-    
+    margin: 10px;
 }
 
 footer{
-    padding: 50px;
+    padding: 60px;
     margin-top: 40px;
     gap: 0;
 }
+
 footer button{
     margin-left: 5px;
     border: 2px solid;
     padding:2px;
     border-radius: 0px 15px 0px 0px;
 }
+
 footer button:hover{
     background-color: gray;
 }
+
 footer button:active{
     transform: scale(0.1);
 }
+
 footer article p{
     width: 100%;
     background-color: lightgray;

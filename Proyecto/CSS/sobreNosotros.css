@@ -20,7 +20,7 @@ body {
 .navegacion{
     display: flex;
     background-color: #20DCC5;
-    font-size: 15px;
+    font-size: 16px;
     justify-content: center;
     width: 100vw;
     height: 75px;
@@ -95,14 +95,14 @@ span {
 .QuienesSomos h1 {
     text-align: center;
     font-size: 30px;
-    margin-right: 690px;
+    margin-right: 600px;
     margin-top: 30px;
 }
 
 .Objetivo h2 {
     text-align: center;
     font-size: 30px;
-    margin-left: 590px;
+    margin-left: 700px;
     margin-top: -230px;
     display: block;
 }
@@ -154,7 +154,7 @@ span {
     background-color: rgb(210,214,213);
     width: 400px;
     height: 120px;
-    margin-left: 450px;
+    margin-left: 430px;
     font-size: 18px;
     border: 2px solid #20DCC5;
     border-radius: 10px;

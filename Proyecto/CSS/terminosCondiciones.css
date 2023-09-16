@@ -20,22 +20,10 @@ body {
 .navegacion{
     display: flex;
     background-color: #20DCC5;
+    font-size: 16px;
     justify-content: center;
-}
-
-.logo-menu{
-    width: 50px;
-    height: 50px;
-}
-
-.marca{
-    width: 80px;
-    height: 70px;
-    border-radius: 10px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    margin: 5px;
+    width: 100vw;
+    height: 75px;
 }
 
 .menu-horizontal {
@@ -85,17 +73,6 @@ body {
     text-decoration: none;
 }
 
-h1 {
-    text-align: center;
-    font-size: 50px;
-    margin-top: 20px;
-}
-
-
-span {
-    color:lightsteelblue;
-}
-
 .Cabeza {
     height: 0px;
     display: flex;
@@ -107,56 +84,50 @@ span {
     background-color: #fff;
 }
 
-.Perfil{
-    margin-top: 45px;
-    background: #D2D6D5;
-    height: 450px;
-    width: 745px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4);
-    margin-right: 100px;
-    margin-left: 20px;
 
+.contenedor h1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0px;
 }
 
-.container {
-    margin-top: 45px;
-    background: #D2D6D5;
-    height: 450px;
-    width: 845px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4);
-    margin-right: 20px;
-}
-
-table {
-    color:#000000;
+.contenedor h2{
     font-size: 14px;
-    table-layout: fixed;
-    border-collapse: collapse;
-    width: 100%;
+    margin-top: 10px;
 }
 
-thead {
-    background: #20DCC5;
+.contenedor h3{
+    font-size: 14px;
+    margin-top: 10px;
 }
 
-th {
-    padding: 20px 15px ;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align:justify;
+.contenedor h4{
+    font-size: 14px;
+    margin-top: 10px;
 }
 
-td {
-    padding: 15px;
-    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+.contenedor h5{
+    font-size: 14px;
+    margin-top: 10px;
 }
 
-
-tbody tr {
-    cursor: pointer;
+.contenedor {
+    width: 92vw;
+    height: 500px;
+    background-color: rgb(210,214,213);
+    border: 2px solid #20DCC5;
+    margin: 30px;
+    padding: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4);
 }
 
-tbody tr:hover {
-    background: rgba(0, 170, 255, 0.4);
+.contenedor p{
+    font-size: 12px;
+    padding: 10px;
 }
 
+.contenedor img{
+    right: 0;
+    width: 80px;
+    height: 70px;
+}

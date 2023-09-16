@@ -18,7 +18,7 @@ body {
 .navegacion {
   display: flex;
   background-color: #20dcc5;
-  font-size: 15px;
+  font-size: 16px;
   justify-content: center;
   width: 100vw;
   height: 75px;
@@ -72,7 +72,7 @@ body {
 h1 {
   text-align: center;
   font-size: 50px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 span {

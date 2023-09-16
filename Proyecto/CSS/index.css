@@ -20,7 +20,7 @@ body {
 .navegacion{
     display: flex;
     background-color: #20DCC5;
-    font-size: 15px;
+    font-size: 16px;
     justify-content: center;
     width: 100vw;
     height: 75px;
@@ -87,7 +87,7 @@ body {
 h1 {
     text-align: center;
     font-size: 50px;
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
 
@@ -108,22 +108,26 @@ span {
 }
 
 
-.Iconos {
+.Login {
     list-style: none;
     display: flex;
-    gap: 10px;
-    margin: 15px;
+    gap: 20px;
+    margin: 20px;
     padding: 0;
     position: absolute;
     top: 10px;
     right: 20px;
 }
 
-
-.Iconos li img {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
+.Login a{
+    text-decoration: none;
+    color: black;
+    background-color:rgb(210,214,213);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    border: 2px solid gray;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 
