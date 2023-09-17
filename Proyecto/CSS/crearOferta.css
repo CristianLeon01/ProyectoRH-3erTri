@@ -49,7 +49,7 @@ header {
     position: relative;
     align-items: center;
     margin: 0 auto;
-    right: 90px;
+    right: 30px;
 }
 
 .menu {
@@ -122,7 +122,7 @@ header {
 
 .tituloOferta{
     text-align: center;
-    font-size: 62px;
+    font-size: 50px;
     margin-top: 50px;
     color: #000;
 }
@@ -138,7 +138,7 @@ form {
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0.2, 0.4);
-    width: 1750px;
+    width: 1000px;
     margin-top: 70px;
 }
 

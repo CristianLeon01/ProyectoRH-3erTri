@@ -47,7 +47,7 @@ header {
     position: relative;
     align-items: center;
     margin: 0 auto;
-    right: 90px;
+    right: 30px;
 }
 
 .menu {
@@ -132,21 +132,22 @@ span {
 .Perfil{
     margin-top: 45px;
     background: #D2D6D5;
-    height: 450px;
+    height: 400px;
     width: 745px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4);
     margin-right: 100px;
     margin-left: 20px;
-
+    border: 2px solid #20dcc5;
 }
 
 .container {
     margin-top: 45px;
     background: #D2D6D5;
-    height: 450px;
+    height: 400px;
     width: 845px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4);
     margin-right: 20px;
+    border: 2px solid #20dcc5;
 }
 
 table {
