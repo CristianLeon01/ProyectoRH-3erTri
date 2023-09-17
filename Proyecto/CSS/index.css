@@ -107,28 +107,6 @@ header {
     text-decoration: none;
 }
 
-/* Aqui termina todo el estilo del header */
-
-h1 {
-    text-align: center;
-    font-size: 50px;
-    margin-top: 70px;
-}
-
-span {
-    color:lightsteelblue;
-}
-
-.Cabeza {
-    height: 0px;
-    display: flex;
-    justify-content: center;
-}
-
-.Pantalla-Inicio {
-    background-color: #fff;
-}
-
 .Login {
     list-style: none;
     display: flex;
@@ -151,17 +129,27 @@ span {
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-.box {
+/* Aqui termina todo el estilo del header */
+
+h1 {
+    text-align: center;
+    font-size: 62px;
+    margin-top: 130px;
+}
+
+span {
+    color:lightsteelblue;
+}
+
+.Busqueda {
     width: 100%;
-    min-height: 100vh;
+    height: 570px;
     background-color: rgb(255, 255, 255);;
     background-position: center;
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: start;
     flex-direction: column;
-    padding-top: 15px;
 }
 
 .search{
@@ -173,7 +161,7 @@ span {
     align-items: center;
     border-radius: 10px;
     padding: 10px 20px;
-    margin-top: 10%;
+    margin-top: 75px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
