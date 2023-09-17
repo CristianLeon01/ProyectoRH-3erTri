@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu&family=Sedgwick+Ave+Display&family=Ubuntu+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 95px;
+    background-color: #20DCC5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interior {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 90px;
+    width: 110px;
+    margin-left: 20px;
+    transition: transform 0.3s;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+.navegacion {
+    display: flex;
+    font-size: 18px;
+    width: 800px;
+    height: 75px;
+    position: relative;
+    align-items: center;
+    margin: 0 auto;
+    right: 90px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    margin-top: -7px;
+    align-items: center;
+    margin-top: 70px;
+    margin: 40px;
+    gap: 25px;
+    height: 2px;
+}
+
+.sobreNosotros{
+    width: 150px;
+}
+
+.terminos{
+    width: 200px;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu li:hover {
+    background-color: lightseagreen;
+    border-radius: 10px;
+}
+
+.sub-Menu {
+    position: absolute;
+    display: none;
+    list-style: none;
+    background-color:#20DCC5;
+}
+
+.menu li:hover .sub-Menu{
+    display: block;
+}
+
+.sub-Menu li:hover{
+    background-color: lightseagreen;
+    border-radius: 10px;
+}
+
+.sub-Menu li a{
+    display: block;
+    color: black;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
