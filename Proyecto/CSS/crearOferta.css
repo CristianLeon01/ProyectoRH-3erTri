@@ -16,7 +16,7 @@ body {
 
 header {
     width: 100%;
-    height: 110px;
+    height: 95px;
     background-color: #20DCC5;
     display: flex;
     justify-content: center;
@@ -43,7 +43,7 @@ header {
 
 .navegacion {
     display: flex;
-    font-size: 19px;
+    font-size: 18px;
     width: 800px;
     height: 75px;
     position: relative;
@@ -69,7 +69,7 @@ header {
 }
 
 .terminos{
-    width: 210px;
+    width: 200px;
 }
 
 .menu li a {
@@ -108,3 +108,75 @@ header {
 }
 
 /* Aqui termina todo el estilo del header */
+
+.crearOferta {
+    width: 100%;
+    height: 1450px;
+    background-color: rgb(255, 255, 255);;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tituloOferta{
+    text-align: center;
+    font-size: 62px;
+    margin-top: 50px;
+    color: #000;
+}
+
+span{
+    color:lightsteelblue;
+}
+
+/* Aqui empieza el estilo del formulario */
+
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0.2, 0.4);
+    width: 1750px;
+    margin-top: 70px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.crear-oferta-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+}
+
+.crear-oferta-button:hover {
+    background-color: #0056b3;
+}

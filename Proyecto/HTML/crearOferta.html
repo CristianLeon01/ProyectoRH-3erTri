@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Vacantes</title>
+    <link rel="stylesheet" href="../CSS/crearOferta.css">
+</head>
+<body>
+    <header>
+        <section class="interior">
+            <a href="" class="logo"><img src="../Img/Logo_EmplyHub.png" alt="Emplay_Hub"></a>
+            <nav class="navegacion">
+                <ul class="menu">
+                    <li><a class="activa" href="../HTML/index.html">Inicio</a></li>
+                    <li><a href="../HTML/ofertas.html">Ofertas</a></li>
+                    <li>
+                        <a href="#termino">Empresa</a>
+                        <ul class="sub-Menu">
+                            <li><a href="#agregarvacante">Crear Oferta</a></li>
+                            <li><a href="#vacantepostulado">Vacantes postuladas</a></li>
+                            <li><a href="../HTML/configuracionEmpresa.html">Configuracion</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#termino">Usuario</a>
+                        <ul class="sub-Menu">
+                            <li><a href="../HTML/Mi-Cuenta.html">Mi cuenta</a></li>
+                            <li><a href="../HTML/mi_hoja_de_vida.html">Mi hoja de Vida</a></li>
+                            <li><a href="../HTML/mi_estado.html">Mi estado de Proceso</a></li>
+                            <li><a href="../HTML/configuracionUsuario.html">Configuracion</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="sobreNosotros" href="../HTML/sobreNosotros.html">Sobre Nosotros</a></li>
+                    <li><a class="terminos" href="../HTML/terminosCondiciones.html">Terminos y Condiciones</a></li>            
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <section class="crearOferta">
+        <h1 class="tituloOferta">Cree Su <span>Oferta</span></h1>
+        <form action="#" method="POST">
+            <label for="titulo">Título de la Oferta:</label>
+            <input type="text" id="titulo" name="titulo" required><br><br>
+    
+            <label for="descripcion">Descripción:</label><br>
+            <textarea id="descripcion" name="descripcion" rows="4" cols="50" required></textarea><br><br>
+    
+            <label for="empresa">Empresa:</label>
+            <input type="text" id="empresa" name="empresa" required><br><br>
+    
+            <label for="ubicacion">Ubicación:</label>
+            <input type="text" id="ubicacion" name="ubicacion"><br><br>
+    
+            <label for="salario">Salario:</label>
+            <input type="number" id="salario" name="salario"><br><br>
+    
+            <label for="fecha_publicacion">Fecha de Publicacion:</label>
+            <input type="date" id="fecha_publicacion" name="fecha_publicacion"><br><br><br>
+
+            <label for="fecha_limite">Fecha Límite:</label>
+            <input type="date" id="fecha_limite" name="fecha_limite"><br><br><br>
+
+            <label for="experiencia">Meses de Experiencia Requeridos:</label>
+            <input type="number" id="experiencia" name="experiencia" min="0" max="120" required>
+    
+            <label for="tipo_contrato">Tipo de Contrato:</label>
+            <select id="tipo_contrato" name="tipo_contrato">
+                <option value="tiempo_completo">Tiempo Completo</option>
+                <option value="tiempo_parcial">Tiempo Parcial</option>
+                <option value="contrato_temporal">Contrato Temporal</option>
+            </select><br><br>
+    
+            <label for="requisitos">Requisitos:</label>
+            <textarea id="requisitos" name="requisitos" rows="4" cols="50" required></textarea><br><br>
+    
+            <center><button type="submit" class="crear-oferta-button">Crear Oferta</button></center>
+        </form>
+    </section>
+</body>
+</html>
