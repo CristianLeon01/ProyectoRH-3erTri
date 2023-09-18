@@ -107,18 +107,9 @@ header {
 
 /* Aqui termina todo el estilo del header */
 
-.box {
+.Formulario{
   width: 100%;
-  min-height: 100vh;
-  background-color: rgb(255, 255, 255);
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  flex-direction: column;
-  padding-top: 20px;
-  margin: 20px;
+  height: 910px;
 }
 
 .information {
@@ -178,10 +169,12 @@ footer article p {
 }
 /*-----------------------------------------------------------------------------------------------*/
 .Formulario {
-  width: 100%;
-  height: 100%;
+  width: 950px;
+  height: 1510px;
   display: flex;
   justify-content: center;
+  margin-left: 500px;
+  margin-top: 25px;
 }
 content.login {
   margin: 10px;
