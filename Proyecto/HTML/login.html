@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="../css/login.css" />
+  </head>
+  <body>
+      <header>
+        <section class="interior">
+          <a href="../HTML/index.html" class="logo"
+            ><img src="../Img/Logo_EmplyHub.png" alt="Emplay_Hub"
+          /></a>
+          <nav class="navegacion">
+            <ul class="menu">
+              <li><a class="activa" href="../HTML/index.html">Inicio</a></li>
+              <li>
+                <a class="sobreNosotros" href="../HTML/sobreNosotros.html">Sobre Nosotros</a>
+              </li>
+              <li>
+                <a class="terminos" href="../HTML/terminosCondiciones.html">Terminos y Condiciones</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </header>
+      <section class="Formulario">
+        <content class="login">
+          <head class="user">
+            <h1>LOGIN</h1>
+            <img
+              src="../Img/LOGIN.png"
+              alt="user"
+              width="300px"
+              height="300px"
+            />
+          </head>
+          <content class="form">
+            <form>
+              <article class="user-type">
+                <label for="user-type"></label>
+                <label for="user-type"
+                  ><img
+                    src="../Img/EMPRESA.png"
+                    alt="imagen"
+                    width="40px"
+                    height="40px"
+                  /><select id="user-type" name="user-type">
+                    <option value="Empresa">Empresa</option>
+                    <option value="Usuario">Usuario</option>
+                  </select></label
+                >
+              </article>
+              <br />
+              <article class="username">
+                <label for="username"
+                  ><img
+                    src="../Img/USERNAME.png"
+                    alt="Imagen"
+                    width="40px"
+                    height="40px" />
+                  <input
+                    type="text"
+                    name="username"
+                    placeholder="| username"
+                    required
+                /></label>
+              </article>
+              <br />
+              <article class="password">
+                <label for="password"
+                  ><img
+                    src="../Img/PASSWORD.png"
+                    alt="Imagen"
+                    width="40px"
+                    height="40px" /><input
+                    type="password"
+                    name="password"
+                    placeholder="| password"
+                    required
+                /></label>
+              </article>
+              <br />
+              <article class="submit">
+                <label for="submit">
+                  <input
+                    type="submit"
+                    name="submit"
+                    placeholder="submit"
+                    value="ENVIAR"
+                  />
+                </label>
+              </article>
+            </form>
+          </content>
+          <footer class="term"></footer>
+        </content>
+      </section>
+  </body>
+</html>
