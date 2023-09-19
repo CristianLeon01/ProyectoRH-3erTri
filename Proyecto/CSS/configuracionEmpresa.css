@@ -107,6 +107,27 @@ header {
 
 /* Aqui termina todo el estilo del header */
 
+span {
+    color:lightsteelblue;
+}
+
+.ConfiguracionEmpresa h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.ConfiguracionEmpresa {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 255, 255);;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .boton1,
 .boton2,
 .boton3,

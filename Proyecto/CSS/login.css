@@ -163,11 +163,11 @@ footer article p {
 }
 /*-----------------------------------------------------------------------------------------------*/
 .Formulario {
-  width: 950px;
-  height: 1510px;
+  width: 50vw;
+  height: 1500px;
   display: flex;
   justify-content: center;
-  margin-left: 180px;
+  margin-left: 23vw;
   margin-top: 25px;
 }
 content.login {
