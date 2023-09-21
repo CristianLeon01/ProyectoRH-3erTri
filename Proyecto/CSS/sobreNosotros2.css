@@ -107,50 +107,78 @@ header {
 
 /* Aqui termina todo el estilo del header */
 
-span {
+.sobre_Nosotros{
+    background-color: rgba(171, 161, 161, 0);
+    width: 100%;
+    height: 37vw;
+}
+
+.titulo{
+    background-color: #ffffff00;
+    width: 40%;
+    margin-left: 30vw;
+    margin-top: 35px;
+}
+
+.titulo h1{
+    text-align: center;
+    font-size: 60px;
+
+}
+
+.titulo span{
     color:lightsteelblue;
 }
 
-
-.Pantalla-Inicio {
-    background-color: #fff;
-}
-
-.contenedor {
-    width: 100vw;
-    height: 100%;
-    display: flex;
-    padding: 20px;
-}
-
-.Nosotros h1 {
-    text-align: center;
-    font-size: 50px;
-    margin-top: 20px;
-}
-
-.Nosotros {
+.contenedor-tarjetas{
+    background-color: rgba(255, 255, 255, 0);
     width: 100%;
-    height: 570px;
-    background-color: rgb(255, 255, 255);;
-    background-position: center;
-    background-size: cover;
+    height: 30vw;
+    margin-top: 15px;
     display: flex;
+    flex-direction:row;
+    gap: 100px;
+    justify-content:center;
     align-items: center;
-    flex-direction: column;
 }
 
-.tarjeta1 {
-    width: 30%;
-    height: 450px;
+.Imagenes-tarjetas img{
+    width: 150px;
+    height: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contenido{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contenido h3{
+    text-align: center;
+    margin-bottom: 18px;
+    font-size: 28px;
+}
+
+.contenido p{
+    text-align:justify;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.tarjeta1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 465px;
+    background-color: #e0e0e0;
+    margin-bottom: 5px;
     border-radius: 6px;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    border: 2px solid #20DCC5;
+    box-shadow: 0PX 1PX 10PX rgba(0, 0, 0, 0.3);
     cursor: default;
     transition: all 400ms ease;
-    font-size: 12px;
-    background-color: rgb(210,214,213);
-    margin-top: -490px;
-    border: 2px solid #20DCC5;
 }
 
 .tarjeta1:hover{
@@ -158,34 +186,19 @@ span {
     transform: translateY(-3%);
 }
 
-.tarjeta1 .contenido {
-    padding: 15px;
-    text-align: center;
-}
-
-.tarjeta1 .contenido p{
-    line-height: 1.5;
-    color: black;
-    font-size: 14px;
-}
-
-.tarjeta1 .contenido h3{
-    margin-bottom: 15px;
-    font-size: 18px;
-}
-
-.tarjeta2 {
-    width: 30%;
-    height: 450px;
+.tarjeta2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 465px;
+    background-color: #e0e0e0;
+    margin-bottom: 5px;
     border-radius: 6px;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    border: 2px solid #20DCC5;
+    box-shadow: 0PX 1PX 10PX rgba(0, 0, 0, 0.3);
     cursor: default;
     transition: all 400ms ease;
-    font-size: 12px;
-    background-color: rgb(210,214,213);
-    margin-left: 400px;
-    margin-top: -530px;
-    border: 2px solid #20DCC5;
 }
 
 .tarjeta2:hover{
@@ -193,60 +206,22 @@ span {
     transform: translateY(-3%);
 }
 
-
-.tarjeta2 .contenido {
-    padding: 15px;
-    text-align: center;
-}
-
-.tarjeta2 .contenido p{
-    line-height: 1.5;
-    color: black;
-    font-size: 18px;
-}
-
-.tarjeta2 .contenido h3{
-    margin-bottom: 15px;
-    font-size: 18px;
-}
-
-.tarjeta3 {
-    width: 30%;
-    height: 450px;
+.tarjeta3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 465px;
+    background-color: #e0e0e0;
+    margin-bottom: 5px;
     border-radius: 6px;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    border: 2px solid #20DCC5;
+    box-shadow: 0PX 1PX 10PX rgba(0, 0, 0, 0.3);
     cursor: default;
     transition: all 400ms ease;
-    font-size: 12px;
-    background-color: rgb(210,214,213);
-    margin-left: 800px;
-    margin-top: -570px;
-    border: 2px solid #20DCC5;
 }
 
 .tarjeta3:hover{
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-3%);
-}
-
-.tarjeta3 .contenido {
-    padding: 10px 10px;
-    text-align: center;
-}
-
-.tarjeta3 .contenido p{
-    line-height: 1.5;
-    color: black;
-    font-size: 18px;
-}
-
-.tarjeta3 .contenido h3{
-    margin-bottom: 15px;
-    font-size: 18px;
-}
-
-.Imagenes-tarjetas img{
-    width: 60%;
-    height: 160px;
-    margin-left: 70px;
 }

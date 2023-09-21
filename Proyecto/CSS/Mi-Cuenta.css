@@ -129,7 +129,7 @@ span {
     background-color: #fff;
 }
 
-.Perfil{
+.Perfil {
     margin-top: 45px;
     background: #D2D6D5;
     height: 400px;
@@ -138,6 +138,52 @@ span {
     margin-right: 100px;
     margin-left: 20px;
     border: 2px solid #20dcc5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagen-perfil img {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%; 
+}
+
+.descripcion {
+    width: 50%; 
+    text-align:justify;
+    
+
+}
+
+.Imagen-Descripcion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 25px;
+}
+
+.habilidad {
+    margin: 10px;
+    padding: 8px 16px;
+    background-color: #20dcc5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.habilidad:hover{
+    background-color: #D2D6D5;
 }
 
 .container {
