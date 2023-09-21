@@ -176,6 +176,7 @@ section .estadoProceso{
     height: 35px;
     background-color: lightgrey;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .button01:hover{
@@ -233,6 +234,7 @@ section .Vistas{
     box-shadow: 5px 5px 5px gray;
     border-radius: 5px;
     border: 2px solid black;
+    cursor: pointer;
 }
 
 .obj01 button:hover{background-color: gray;}
