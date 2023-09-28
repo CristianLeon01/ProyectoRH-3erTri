@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/crearEmpresa.css">
+    <title>CREAR EMPRESA</title>
+</head>
+<body>
+    <header>
+        <section class="interior">
+            <a href="../HTML/index.html" class="logo"><img src="../Img/Logo_EmplyHub.png" alt="Emplay_Hub"></a>
+            <nav class="navegacion">
+                <ul class="menu">
+                    <li><a class="activa" href="../HTML/index.html">Inicio</a></li>
+                    <li><a href="../HTML/ofertas.html">Ofertas</a></li>
+                    <li>
+                        <a href="#termino">Empresa</a>
+                        <ul class="sub-Menu">
+                            <li><a href="../HTML/crearEmpresa.html">Crear Empresa</a></li>
+                            <li><a href="../HTML/crearOferta.html">Crear Oferta</a></li>
+                            <li><a href="../HTML/vacantesPostuladas.html">Vacantes postuladas</a></li>
+                            <li><a href="../HTML/configuracionEmpresa.html">Configuracion</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="sobreNosotros" href="../HTML/sobreNosotros.html">Sobre Nosotros</a></li>
+                    <li><a class="terminos" href="../HTML/terminosCondiciones.html">Terminos y Condiciones</a></li>            
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <h1 class="tituloEmpresa">Cree Su <span>Empresa</span></h1>
+    <form class="formulario-doble">
+        <section class="derecha">
+            <h2>Datos Empresariales</h2>
+            <label for="titulo">Nombre de la empresa</label>
+            <input type="text" id="titulo" name="titulo"><br><br>
+
+            <label for="descripcion">*Representante legal</label><br>
+            <input type="text" id="titulo" name="titulo" required><br><br>
+
+            <label for="tipo_empresa">Tipo de empresa</label>
+            <select id="tipo_empresa" name="tipo_empresa">
+                <option value="no_definida">No definida</option>
+                <option value="limitada">Limitada</option>
+                <option value="anonima">Anonima</option>
+                <option value="comandita">Comandita</option>
+                <option value="asociativa">Empresa Asociativa</option>
+                <option value="unipersonal">Empresa Unipersonal</option>
+                <option value="otra">Otra</option>
+                <option value="natural">Persona Natural</option>
+                <option value="colectiva">Sociedad Colectiva</option>
+                <option value="acciones_simplificadas">Sociedades por Acciones Simplificadas</option>
+                <option value="comandita_simple">Sociedad En Comandita Simple</option>
+                <option value="acciones">Sociedad En Comandita por Acciones</option>
+                <option value="emprende_rural">Empresa rural SENA Emprende Rural</option>
+            </select><br><br>
+
+            <label for="nit">NIT:</label>
+            <input type="text" id=nit name="nit"><br><br>
+
+            <label for="trabajadores">*Numero de trabajadores</label>
+            <input type="number" id="trabajadores" name="trabajadores" required><br><br>
+            
+            <label for="correo">Correo electronico representante legal</label>
+            <input type="text" id=correo name="correo"><br><br>
+
+            <label for="naturaleza">Naturaleza</label>
+            <select id="naturaleza" name="naturaleza">
+                <option value="">Pública</option>
+                <option value="">Privada</option>
+                <option value="">Mixta</option>
+            </select><br><br>
+
+        </section>
+        <section class="izquierda">
+
+            <h2>Datos de ubicación</h2>
+            <label for="direccion">*Direccion</label>
+            <textarea id="direccion" name="direccion" rows="4" cols="50" required></textarea><br><br>
+
+            <label for="telefono">*Telefono</label>
+            <input type="text" id="telefono" name="telefono" required><br><br>
+
+        
+            <label for="telefono2">Telefono alterno</label>
+            <input type="text" id="telefono2" name="telefono2"><br><br>
+
+            <h2>Datos de Recursos Humanos</h2>
+            
+            <label for="recursos-humanos">*Encargado de recursos humanos</label>
+            <input type="text" id="recursos-humanos" name="recursos-humanos" required><br><br>
+
+            <label for="telefono">*Telefono</label>
+            <input type="text" id="telefono" name="telefono" required><br><br>
+
+        
+            <label for="telefono2">Telefono alterno</label>
+            <input type="text" id="telefono2" name="telefono2"><br><br>
+
+            <label for="correo">*E-mail del encargado</label>
+            <input type="text" id=correo name="correo" class="textarea1" required><br><br>
+            
+            <center><button type="submit" class="crear-oferta-button">Crear Empresa</button></center>
+        </section>
+    </form>
+</body>
+</html>
