@@ -230,7 +230,7 @@ span {
 
 footer {
   width: 100vw;
-  height: 50%;
+  height: 40vh;
   bottom: 0;
   left: 0;
   padding: 2rem 8%;
@@ -238,7 +238,8 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(210,214,213);
+  background-color: black;
+  border: 2px solid rgb(220,208,32);
   margin-top: 90px;
 }
 
@@ -255,16 +256,16 @@ footer {
   height: 50px;
   width: 50px;
   border-radius: 50px;
-  border: 1px solid black;
+  border: 1px solid white;
   background-image: url(../Img/Facebook.png);
   background-position: center;
   background-size: 40%;
   background-repeat: no-repeat;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 .icono-redesSociales:hover {
-  background-color: white;
+  background-color: black;
   filter: invert(1);
 }
 
@@ -282,7 +283,7 @@ footer {
 
 .menu-contenedor {
   list-style-type: none;
-  color: black;
+  color: white;
   font-size: 18px;
 }
 
@@ -296,8 +297,9 @@ footer {
 }
 
 .copyright {
-  color: black;
+  color: white;
   opacity: 0.3;
+  text-align: center;
 }
 
 /* Aqui termina todo el estilo del footer */

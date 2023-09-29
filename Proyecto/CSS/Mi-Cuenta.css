@@ -15,7 +15,7 @@ body {
 header {
   width: 100%;
   height: 95px;
-  background-color: #20dcc5;
+  background-color: #dcd020;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,7 +78,7 @@ header {
 }
 
 .menu li:hover {
-  background-color: lightseagreen;
+  background-color: #8e8e8e;
   border-radius: 10px;
 }
 
@@ -86,7 +86,7 @@ header {
   position: absolute;
   display: none;
   list-style: none;
-  background-color: #20dcc5;
+  background-color: #dcd020;
 }
 
 .menu li:hover .sub-Menu {
@@ -94,7 +94,7 @@ header {
 }
 
 .sub-Menu li:hover {
-  background-color: lightseagreen;
+  background-color: #8e8e8e;
   border-radius: 10px;
 }
 
@@ -147,7 +147,7 @@ span {
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4);
   margin-right: 100px;
   margin-left: 20px;
-  border: 2px solid #20dcc5;
+  border: 2px solid #dcd020;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -183,7 +183,7 @@ span {
 .habilidad {
   margin: 10px;
   padding: 8px 16px;
-  background-color: #20dcc5;
+  background-color: #dcd020;
   color: white;
   border: none;
   border-radius: 5px;
@@ -201,7 +201,7 @@ span {
   width: 845px;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4);
   margin-right: 20px;
-  border: 2px solid #20dcc5;
+  border: 2px solid #dcd020;
 }
 
 table {
@@ -213,7 +213,7 @@ table {
 }
 
 thead {
-  background: #20dcc5;
+  background: #dcd020;
 }
 
 th {
@@ -276,7 +276,7 @@ tbody tr:hover {
     align-items: center;
     width: 59vw;
     height: 76vw;
-    background-color: #20dcc5;
+    background-color: #dcd020;
     position: relative;
     bottom: 14.2vw;
     display: none;
@@ -306,7 +306,7 @@ tbody tr:hover {
     position: absolute;
     left: 46vw;
     min-width: 54vw;
-    background-color: #20dcc5;
+    background-color: #dcd020;
     z-index: 2;
   }
 

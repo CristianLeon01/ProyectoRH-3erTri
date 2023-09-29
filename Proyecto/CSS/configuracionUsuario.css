@@ -15,7 +15,7 @@ body {
 header {
   width: 100%;
   height: 95px;
-  background-color: #20dcc5;
+  background-color: #dcd020;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,7 +78,7 @@ header {
 }
 
 .menu li:hover {
-  background-color: lightseagreen;
+  background-color: #8e8e8e;
   border-radius: 10px;
 }
 
@@ -86,7 +86,7 @@ header {
   position: absolute;
   display: none;
   list-style: none;
-  background-color: #20dcc5;
+  background-color: #dcd020;
 }
 
 .menu li:hover .sub-Menu {
@@ -94,7 +94,7 @@ header {
 }
 
 .sub-Menu li:hover {
-  background-color: lightseagreen;
+  background-color: #8e8e8e;
   border-radius: 10px;
 }
 
@@ -133,7 +133,6 @@ span {
 .ConfiguracionUsuario {
   width: 100%;
   height: 150px;
-  background-color: rgb(255, 255, 255);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -155,7 +154,7 @@ span {
   height: 50px;
   margin: 20px;
   margin-top: 30px;
-  border: 2px solid #20dcc5;
+  border: 2px solid #dcd020;
 }
 
 .links a {
@@ -170,11 +169,11 @@ span {
   background-color: rgb(210, 214, 213);
   display: none;
   width: 50vw;
-  border: 2px solid #20dcc5;
+  border: 2px solid #dcd020;
 }
 
 .links a:hover {
-  background-color: lightseagreen;
+  background-color: #8e8e8e;
 }
 
 .contenedor:hover .links {
@@ -203,7 +202,7 @@ span {
   width: 35vw;
   height: 50px;
   margin-top: 20px;
-  border: 2px solid #20dcc5;
+  border: 2px solid #dcd020;
 }
 
 .boton1:hover + .tooltip {
@@ -265,7 +264,7 @@ span {
     align-items: center;
     width: 59vw;
     height: 76vw;
-    background-color: #20dcc5;
+    background-color: #dcd020;
     position: relative;
     bottom: 14.2vw;
     display: none;
@@ -296,7 +295,7 @@ span {
     position: absolute;
     left: 46vw;
     min-width: 54vw;
-    background-color: #20dcc5;
+    background-color: #dcd020;
     z-index: 2;
   }
 
