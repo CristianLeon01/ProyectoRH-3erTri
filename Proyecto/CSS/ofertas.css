@@ -380,6 +380,84 @@ h3 {
   #icon-menu:checked ~ .navegacion .menu {
     display: initial;
   }
-}
+
 
 /* termina el responsive del header  */
+
+
+/*Aqui empieza estilo de los contenedores */
+
+  .ofertas {
+    height: auto;
+    padding: 20px;
+  }
+
+  .titulo {
+    width: 85%;
+    margin-left: 0;
+  }
+
+  .titulo h1 {
+    font-size: 40px;
+  }
+
+  .contenedor {
+    width: 85%;
+    height: 250px;
+    margin: 20px 0;
+  }
+
+  .contenedor-izquierda {
+    width: 100%;    
+  }
+
+  .contenedor-derecha {
+    width: 100%;
+    margin-left: 0;
+    margin-left: 45%;
+    margin-bottom: 40px;
+  }
+
+  .boton {
+    margin-left: 0;
+  }
+
+  .botonUnico {
+    margin: 100px auto;
+    margin-left: 0;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  }
+
+  .botonUnico:hover{
+    background-color: #d1c95c;
+    color: white;
+    transform: scale(1.1);
+  }
+
+  .contenedor1{
+    margin-left: 0;
+    margin-top: 30px;
+    width: 85%;
+  }
+
+  .contenedor1 .segundo{
+    height: 500px;
+    margin-top: 30px;
+  }
+
+  .label {
+    font-size: 18px;
+  }
+
+  .select {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    width: 90%;
+    max-width: none;
+    margin-top: 20px;
+  }
+}
+
+/* Aqui termina el responsive de los contenedores /*
