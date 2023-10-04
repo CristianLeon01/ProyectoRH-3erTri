@@ -288,4 +288,34 @@ header {
   #icon-menu:checked ~ .navegacion .menu {
     display: initial;
   }
+
+/* termina el responsive del header  */
+
+/* Aqui empieza el estilo responsive del contenedor Terminos y condiciones */
+
+  .contenedor {
+    width: 90vw;
+    height: auto;
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .contenedor h1 {
+    font-size: 20px;
+  }
+
+  .contenedor h2,
+  .contenedor h3,
+  .contenedor h4,
+  .contenedor h5 {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  .contenedor img {
+    width: 60px;
+    height: 50px;
+  }
 }
+
+/* Aqui termina estilo terminos y condiciones */

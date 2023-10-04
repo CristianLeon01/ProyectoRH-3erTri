@@ -346,6 +346,46 @@ span {
   #icon-menu:checked ~ .navegacion .menu {
     display: initial;
   }
-}
+
 
 /* termina el responsive del header  */
+
+/* Aqui empieza el responsive de los botones y tooltips */
+
+  .ConfiguracionEmpresa h1 {
+    font-size: 30px;
+  }
+
+  .boton1,
+  .boton2,
+  .boton3,
+  .boton4,
+  .boton5{
+    width: 50vw;
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  .links {
+    width: 50vw;
+    margin: 10px;
+  }
+
+  .tooltip {
+    width: 40vw;
+    height: 40px;
+    font-size: 12px;
+    left: 60%;
+    margin-top: 50px;
+  }
+
+  .boton1:hover + .tooltip,
+  .boton2:hover + .tooltip,
+  .boton3:hover + .tooltip,
+  .boton4:hover + .tooltip,
+  .boton5:hover + .tooltip {
+    top: -40px;
+  }
+}
+
+/* Aqui termina el estilo responsive de los botones y tooltips */
